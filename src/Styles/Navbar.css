@@ -1,0 +1,16 @@
+.navbar {
+  background-color: #f8f9fa;
+}
+.NavBrand{
+    color: #ffffff;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+.nav-link {
+  color: #ffffff;
+}
+.nav-link.active {
+  font-weight: bold;
+  color: #007bff;
+}

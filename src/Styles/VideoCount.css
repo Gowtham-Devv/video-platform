@@ -1,0 +1,44 @@
+#VideoCount {
+  margin-top: 50px;
+}
+#VideoCount .VideoRow {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-gap: 20px;
+}
+#VideoCount .subscriber > button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+#VideoCount .subscriber > button:hover {
+  background-color: white;
+  color: black;
+}
+
+@media (max-width:1024px) {
+ 
+  #VideoCount .VideoRow {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-gap: 20px;
+  }
+
+}
+@media (min-width:1024px) {
+  
+  #VideoCount .VideoRow {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 20px;
+  }
+  #VideoCount .VideoRow .VideoContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    #VideoCount .VideoRow .VideoContent .ReactPlayer{
+   width: 100% !important;
+  } 
+  }

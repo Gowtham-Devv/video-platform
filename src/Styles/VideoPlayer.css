@@ -1,0 +1,32 @@
+#VideoPlayer{
+  margin-top: 100px;
+}
+#VideoPlayer .container-fluid.BgColor {
+  padding: 20px;
+}
+
+#VideoPlayer .PlayerTitle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#VideoPlayer .ReactPlayer {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#VideoPlayer .Content {
+  margin-top: 30px !important;
+}
+
+#VideoPlayer #qualitySelect {
+  width: 80px;
+  padding: 8px;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #333;
+}
+
+#VideoPlayer .text-white {
+  color: #fff;
+}
