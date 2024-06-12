@@ -1,0 +1,9 @@
+.app.dark {
+    background-color: black;
+    color: white;
+  }
+  
+  .app.white {
+    background-color: white;
+    color: black;
+  }

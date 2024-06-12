@@ -39,9 +39,9 @@ const VideoPlayer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12 mt-5">
-                        <div className="PlayerTitle"><h2>Video Player</h2></div>
+                        <div className="PlayerTitle mt-5"><h2>Video Player</h2></div>
                     </div>
-                    <div className="col-12 d-flex flex-column align-items-center">
+                    <div className="col-12 d-flex flex-column align-items-center mt-5">
                         <ReactPlayer url={url}   controls/>
                         <div className="form-group mt-2 d-flex align-items-center gap-5 Content">
                             <label htmlFor="qualitySelect" className=''>Select Quality</label>

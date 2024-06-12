@@ -16,7 +16,7 @@ function VideoCount() {
     };
 
     useEffect(() => {
-        // This will only run once when the component mounts
+
         const savedClickedButtons = JSON.parse(localStorage.getItem('clickedButtons'));
         const savedCounter = JSON.parse(localStorage.getItem('counter'));
 
