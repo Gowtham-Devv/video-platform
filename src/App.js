@@ -8,6 +8,7 @@ import VideoCount from './Components/VideoCount';
 import Navbars from './Components/Navbar';
 import UserForm from './Components/UserForm';
 import { login, logout } from './Slice/authSlice';
+import CustomVideoPlayer from './Pages/CustomVideoplayer';
 
 
 function App() {
@@ -100,6 +101,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/VideoCount' element={<VideoCount />} />
           <Route path='/Profile' element={<Profile />} />
+          <Route path='/CustomVideoPlayer' element={<CustomVideoPlayer />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </BrowserRouter>

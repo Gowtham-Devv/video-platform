@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import "../Styles/Navbar.css";
 import React from 'react';
 import { useSelector } from 'react-redux';
+import '../Styles/CustomVideoPlayer.css'
 
 function Navbars({ onLogout }) {
   const userData = useSelector((state) => state.auth.userData);
@@ -18,6 +19,7 @@ function Navbars({ onLogout }) {
           <Nav className="ms-auto d-flex gap-lg-5 align-items-center justify-content-center">
             <Nav.Link href="/" className='text-white'>Home</Nav.Link>
             <Nav.Link href="/VideoCount" className='text-white'>Coins Earnings</Nav.Link>
+            <Nav.Link href="/CustomVideoPlayer" className='text-white'>CustomVideoPlayer</Nav.Link>
             {userData ? (
               <>
                 <Nav.Link href="/Profile" className='text-white'>
